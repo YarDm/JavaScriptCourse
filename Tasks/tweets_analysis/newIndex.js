@@ -19,7 +19,7 @@ let wca = require('./words'),
 function RetweetsAnalyse() {
     let twits = {};
 
-    //hазбиваем строки на слова
+    //разбиваем строки на слова
     function parseWords(ss) {
         const delimeters = " \"\t\n,.:;?!/-+="; //разделители слов
         const url_symbols = ":/."; //урлы как отдельный элемент
